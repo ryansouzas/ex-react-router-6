@@ -1,6 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+:root {
+  --app-color-bg-primary: #ff2323;
+  --app-color-bg-secondary: #dadada;
+  --app-color-bg-tertiary: #ffffff;
+
+  --app-color-font-primary: #ffffff;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Poppins";
+  font-family: "Inter";
+}
+
+html,
+body {
+  background-color: var(--app-color-bg-secondary);
+}
+main {
+  padding: 0 20px;
+}
+
+/*-----------------------------------------------------------------*/
+/* generic styles */
+
+.app-container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/*-----------------------------------------------------------------*/
+/* header styles */
+
+header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h1 {
+  font-size: 20px;
+  color: var(--app-color-font-primary);
 }
