@@ -6,6 +6,7 @@
   --app-color-bg-tertiary: #ffffff;
 
   --app-color-font-primary: #ffffff;
+  --app-color-font-secondary: #6f6f6f;
 }
 
 * {
@@ -30,6 +31,10 @@ main {
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
+}
+
+.app-mt20 {
+  margin-top: 20px;
 }
 
 /*-----------------------------------------------------------------*/
