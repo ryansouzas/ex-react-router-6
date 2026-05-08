@@ -3,6 +3,7 @@ import "./App.css";
 import ClientSite from "./routes/ClientSite";
 import Home from "./routes/Home";
 import Promotion from "./routes/Promotion";
+import EnrollmentPage from "./routes/EnrollmentPage";
 import Enrollment from "./routes/Enrollment";
 
 function App() {
@@ -14,7 +15,9 @@ function App() {
             <Route index element={<Home />} />
             <Route path="home" element={<Home />} />
             <Route path="Promotion" element={<Promotion />} />
-            <Route path="Enrollment" element={<Enrollment />} />
+          </Route>
+          <Route path="/Enrollment" element={<EnrollmentPage />}>
+            <Route index element={<Enrollment />} />
           </Route>
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>

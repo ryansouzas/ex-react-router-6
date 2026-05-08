@@ -1,0 +1,11 @@
+.app-header-enrollment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.app-cotainer-enrollment h1 {
+  font-size: 32px;
+  color: var(--app-color-font-tertiary);
+}
