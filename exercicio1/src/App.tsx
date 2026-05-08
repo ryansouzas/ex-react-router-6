@@ -2,6 +2,7 @@ import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import "./App.css";
 import ClientSite from "./routes/ClientSite";
 import Home from "./routes/Home";
+import Promotion from "./routes/Promotion";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
           <Route path="/" element={<ClientSite />}>
             <Route index element={<Home />} />
             <Route path="home" element={<Home />} />
+            <Route path="Promotion" element={<Promotion />} />
           </Route>
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
