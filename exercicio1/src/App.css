@@ -37,6 +37,9 @@ main {
   margin-top: 20px;
 }
 
+a {
+  text-decoration: none;
+}
 /*-----------------------------------------------------------------*/
 /* header styles */
 
