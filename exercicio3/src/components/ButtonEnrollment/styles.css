@@ -1,0 +1,8 @@
+.app-home-button {
+  width: 150px;
+  height: 45px;
+  border-radius: 6px;
+  background-color: var(--app-color-bg-primary);
+  color: var(--app-color-font-primary);
+  margin-top: 30px;
+}
